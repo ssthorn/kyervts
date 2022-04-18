@@ -6,4 +6,3 @@ class Post(models.Model):
     description = models.CharField(max_length=32, default="default")
     votesYes = models.IntegerField()
     votesNo = models.IntegerField()
-    # slug = models.SlugField(max_length=250, default='published')
